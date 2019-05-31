@@ -24,13 +24,14 @@ public class Finalization {
         System.out.println("First print: " + f);
         f = null;
         System.gc();
-        try {  // 睡眠1s，让上面的垃圾回收线程执行完成
+        try {
+            // 睡眠1s，让上面的垃圾回收线程执行完成
             Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         System.out.println("Second print: " + f);
-        System.out.println(f.finalization);
+        System.out.println(Finalization.finalization);
 
         // 强引用
         String str = new String("abc");

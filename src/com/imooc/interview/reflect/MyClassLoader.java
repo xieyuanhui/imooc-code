@@ -5,6 +5,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 
+/**
+ * @author LitheLight
+ */
 public class MyClassLoader extends ClassLoader {
 
     private String path;
@@ -15,9 +18,14 @@ public class MyClassLoader extends ClassLoader {
         this.classLoaderName = classLoaderName;
     }
 
-    // 用于寻找文件
+    /**
+     * 用于寻找文件
+     * @param name
+     * @return
+     * @throws ClassNotFoundException
+     */
     @Override
-    protected Class<?> findClass(String name) throws ClassNotFoundException {
+    protected Class<?> findClass(String name) {
         byte[] b = loadClassData(name);
         return defineClass(name, b, 0, b.length);
     }

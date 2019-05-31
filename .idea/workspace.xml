@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/com/imooc/interview/reflect/LoadDifference.java" line="6" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca64b373-9095-4c62-8bfe-576c91ff80da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/Finalization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/NormalObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/NormalObjectWeakReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/ReferenceQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/DefaultTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/basic/Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/basic/BasicProtectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/basic/SubBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/CloneClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/DeepCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/DeepCopy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Professor0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Professor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/ShallowCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Student0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Student2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/basic/test/DefaultTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/basic/test/SubBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/basic/test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/imooc-code/com/imooc/interview/jvm/gc/Finalization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/imooc-code/com/imooc/interview/jvm/gc/Finalization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/imooc-code/com/imooc/interview/jvm/gc/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/imooc-code/com/imooc/interview/reflect/MyClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/imooc-code/com/imooc/interview/reflect/MyClassLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/Finalization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/Finalization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/reflect/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/reflect/MyClassLoader.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +46,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/NormalObject.java">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Student2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="247">
+              <caret line="34" column="55" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -62,7 +82,6 @@
         <option value="$PROJECT_DIR$/src/bytedance/Main2.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/interview/reflect/ReflectSample.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/interview/bytecode/ByteCodeSample.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/interview/reflect/MyClassLoader.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/interview/reflect/ClassLoaderChecker.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/interview/reflect/Robot.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/interview/reflect/LoadDifference.java" />
@@ -72,7 +91,27 @@
         <option value="$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/NormalObjectWeakReference.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/NormalObject.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/ReferenceQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/Test.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/Finalization.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/BasicTest.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/DefaultTest.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/BasicProtectTest.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/test/DefaultTest.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/SubBasic.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/Basic.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/test/SubBasic.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/reflect/MyClassLoader.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/CloneClass.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Professor0.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/ShallowCopy.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Professor.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/DeepCopy.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Professor2.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Student0.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/DeepCopy2.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Student2.java" />
       </list>
     </option>
   </component>
@@ -86,8 +125,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -139,7 +178,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="bytecode" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imooc-code" type="b2602c69:ProjectViewProjectNode" />
@@ -148,27 +187,8 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="gc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="clone" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,7 +199,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559124301743" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559227850289" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_191/bin/jvisualvm.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -189,6 +209,9 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.interview" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Projects\IDEAProjects\imooc-code\src\com\imooc\interview\bytecode" />
     </key>
@@ -205,13 +228,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReferenceQueueTest">
-    <configuration name="ClassLoaderChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.interview.reflect.ClassLoaderChecker" />
+  <component name="RunManager" selected="Application.DeepCopy2">
+    <configuration name="BasicProtectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.interview.basic.BasicProtectTest" />
       <module name="imooc-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.interview.reflect.*" />
+          <option name="PATTERN" value="com.imooc.interview.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +242,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Finalization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.interview.jvm.gc.Finalization" />
+    <configuration name="DeepCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.interview.basic.clone.DeepCopy" />
       <module name="imooc-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.interview.jvm.gc.*" />
+          <option name="PATTERN" value="com.imooc.interview.basic.clone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InternDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.interview.jvm.model.InternDifference" />
+    <configuration name="DeepCopy2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.interview.basic.clone.DeepCopy2" />
       <module name="imooc-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.interview.jvm.model.*" />
+          <option name="PATTERN" value="com.imooc.interview.basic.clone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,12 +268,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoadDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.interview.reflect.LoadDifference" />
+    <configuration name="ShallowCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.interview.basic.clone.ShallowCopy" />
       <module name="imooc-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.interview.reflect.*" />
+          <option name="PATTERN" value="com.imooc.interview.basic.clone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,12 +281,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReferenceQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.interview.jvm.gc.ReferenceQueueTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.interview.basic.test.Test" />
       <module name="imooc-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.interview.jvm.gc.*" />
+          <option name="PATTERN" value="com.imooc.interview.basic.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReferenceQueueTest" />
-        <item itemvalue="Application.Finalization" />
-        <item itemvalue="Application.InternDifference" />
-        <item itemvalue="Application.LoadDifference" />
-        <item itemvalue="Application.ClassLoaderChecker" />
+        <item itemvalue="Application.DeepCopy2" />
+        <item itemvalue="Application.DeepCopy" />
+        <item itemvalue="Application.ShallowCopy" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.BasicProtectTest" />
       </list>
     </recent_temporary>
   </component>
@@ -295,12 +318,12 @@
       <workItem from="1558746127571" duration="8088000" />
       <workItem from="1558925035371" duration="10577000" />
       <workItem from="1559097440353" duration="4155000" />
-      <workItem from="1559123601510" duration="747000" />
+      <workItem from="1559123601510" duration="15048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26445000" />
+    <option name="totallyTimeSpent" value="40746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -313,6 +336,7 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32991204" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.41788855" />
@@ -323,9 +347,9 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.30645162" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32991204" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
-      <window_info anchor="bottom" id="Problems" order="12" />
+      <window_info anchor="bottom" id="Problems" order="12" weight="0.32991204" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="15" />
@@ -378,16 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/reflect/MyClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="23" lean-forward="true" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -423,26 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/jvm/model/ByteCodeSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/jvm/model/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -487,27 +481,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/ref/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1400">
           <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/ReferenceQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -518,13 +495,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/Finalization.java">
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -532,6 +506,189 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/jvm/model/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/ReferenceQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/jvm/gc/Finalization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/DefaultTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/BasicProtectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/SubBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/Basic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="30" column="43" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/jvm/model/ByteCodeSample.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/jvm/model/ByteCodeSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/reflect/MyClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#391#392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/test/SubBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/test/DefaultTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/clone/CloneClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="227" selection-start-line="12" selection-start-column="227" selection-end-line="12" selection-end-column="227" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/clone/ShallowCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="20" column="112" selection-start-line="20" selection-start-column="112" selection-end-line="20" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Professor0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Professor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/clone/DeepCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Professor2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Student0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/clone/DeepCopy2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/basic/clone/Student2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="55" />
         </state>
       </provider>
     </entry>
